@@ -1,5 +1,7 @@
 @import '../../bootstrap/scss/variables';
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 
-body {
-    background-color: $gray-700;
+nav {
+    background-color: aqua;
+    
 }

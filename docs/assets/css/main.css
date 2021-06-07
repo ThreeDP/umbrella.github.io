@@ -1,4 +1,6 @@
-body {
-  background-color: #495057;
+nav {
+  background-color: aqua;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
 }
 /*# sourceMappingURL=main.css.map */
