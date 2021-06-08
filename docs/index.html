@@ -11,8 +11,8 @@
         <link rel="stylesheet" href="/assets/css/styles.min.css?h=41e5b766e4d94fd51b8decee00737dc3"> 
         <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap-grid.css">
         <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap-utilities.css">
-        <link rel="stylesheet" href="/bootstrap/dist/css/Bootstrap.css"> -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="/bootstrap/dist/css/Bootstrap.css"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">-->
         <link href="bootstrap/scss/bootstrap.css" rel="stylesheet">
     </head>
     <body class="">
@@ -121,7 +121,25 @@
           </div>
 <!-- FIM CARROSSEL -->
 <!-- INICIO NOTICIAS -->
-        <div class="container mt-3">
+        <div class="container mt-5 mb-5">
+            <h1 class="">Notícias</h1>
+            <div class="row row-cols-mb-2 mb-5">
+                <div class="input-group col">
+                    <input type="text" class="form-control" placeholder="Digite sua pesquisa aqui..." aria-label="Digite sua pesquisa aqui..." aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Pesquisar</button>
+                </div>
+                <div class="input-group col">
+                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">filtrar</button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="#">Covid-19</a></li>
+                    <li><a class="dropdown-item" href="#">Saúde Publica</a></li>
+                    <li><a class="dropdown-item" href="#">Educação</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                 <div class="card h-100">
@@ -163,11 +181,12 @@
         </div>
 <!-- Start: Footer Dark -->
         <footer class="page-footer">
-            <div class="container mt-5">
+            <div class="container pt-5 pb-3">
                 <div class="row">
                     <div class="col-sm-2">
                         <p class="h5 text-uppercase">
                             <img class="mx-auto d-block" src="assets/img/icones/brasao_branco.png">
+                            <p class="h5 text-uppercase text-center text-bold">Cidade de São Lourenço</p>
                         </p>
                     </div>
                     <div class="col-sm-2">
@@ -210,8 +229,6 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div>
                 <p class="text-center">© 2021 | São Lourenço | Todos os direitos reservados.</p>
             </div>
         </footer><!-- End: Footer Dark -->
