@@ -13,9 +13,9 @@
         <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap-utilities.css">
         <link rel="stylesheet" href="/bootstrap/dist/css/Bootstrap.css"> -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        <link href="assets/css/main.css" rel="stylesheet">
+        <link href="bootstrap/scss/bootstrap.css" rel="stylesheet">
     </head>
-    <body>
+    <body class="">
         <nav class="navbar navbar-light navbar-expand-lg bg-white clean-navbarS">
             <div class="container">
                 <a class="navbar-brand logo" href="#">
@@ -120,55 +120,98 @@
             </button>
           </div>
 <!-- FIM CARROSSEL -->
-<!-- INICIO INFORMAÇÕES COVID -->
-
+<!-- INICIO NOTICIAS -->
+        <div class="container mt-3">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                <div class="card h-100">
+                    <img src="assets/img/noticias/noticia 01.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title text-uppercase">Entrega dos cartões do auxílio emergencial familiar iniciará na quarta-feira (09/06)</h5>
+                    <p class="card-text">O cartão já virá com a primeira parcela creditada para o beneficiário.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col">
+                <div class="card h-100">
+                    <img src="assets/img/noticias/noticia 02.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title text-uppercase">Comunicado - vacinação covid-19</h5>
+                    <p class="card-text">Comunicado - Vacinação COVID-19 (A partir de 18 anos com comorbidades)</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col">
+                <div class="card h-100">
+                    <img src="assets/img/noticias/noticia 03.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title text-uppercase">Decreto municipal regulamenta novas restrições da onda vermelha do minas consciente</h5>
+                    <p class="card-text">O Governo de Minas impôs novas restrições a Onda Vermelha devido a situação dos leitos hospitalares</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col">
+                <div class="card h-100">
+                    <img src="assets/img/noticias/noticia 04.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title text-uppercase">Disque denúncia covid-19</h5>
+                    <p class="card-text">Denuncie aglomerações, festas clandestinas, locais que não cumprem os requisitos básicos de proteção, como uso de máscara, disponibilização de álcool em gel e distanciamento social.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
 <!-- Start: Footer Dark -->
         <footer class="page-footer">
-            <div class="container">
+            <div class="container mt-5">
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-2">
+                        <p class="h5 text-uppercase">
+                            <img class="mx-auto d-block" src="assets/img/icones/brasao_branco.png">
+                        </p>
+                    </div>
+                    <div class="col-sm-2">
                         <p class="h5 text-uppercase">Prefeitura</p>
                         <ul>
-                            <li><a href="#">Noticias</a></li>
-                            <li><a href="#">Noticias Oficiais</a></li>
-                            <li><a href="#">Licitação</a></li>
-                            <li><a href="#">Transparência&nbsp;</a></li>
-                            <li><a href="#">Ouvidoria</a></li>
+                            <li><a class="text-decoration-none" href="#">Noticias</a></li>
+                            <li><a class="text-decoration-none" href="#">Noticias Oficiais</a></li>
+                            <li><a class="text-decoration-none" href="#">Licitação</a></li>
+                            <li><a class="text-decoration-none" href="#">Transparência&nbsp;</a></li>
+                            <li><a class="text-decoration-none" href="#">Ouvidoria</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3">
                         <p class="h5 text-uppercase">Turismo</p>
                         <ul>
-                            <li><a href="#">Atividades</a></li>
-                            <li><a href="#">Eventos</a></li>
-                            <li><a href="#">Gastronomia</a></li>
-                            <li><a href="#">Hospedagem</a></li>
-                            <li><a href="#">Compras e Serviços</a></li>
-                            <li><a href="#">Lei Aldir Blanc</a></li>
-                            <li><a href="#">Peregrinação de Nha Chica</a></li>
+                            <li><a class="text-decoration-none" href="#">Atividades</a></li>
+                            <li><a class="text-decoration-none" href="#">Eventos</a></li>
+                            <li><a class="text-decoration-none" href="#">Gastronomia</a></li>
+                            <li><a class="text-decoration-none" href="#">Hospedagem</a></li>
+                            <li><a class="text-decoration-none" href="#">Compras e Serviços</a></li>
+                            <li><a class="text-decoration-none" href="#">Lei Aldir Blanc</a></li>
+                            <li><a class="text-decoration-none" href="#">Peregrinação de Nha Chica</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-2">
                         <p class="h5 text-uppercase">Serviços</p>
                         <ul>
-                            <li><a href="#">SAAE</a></li>
-                            <li><a href="#">CEMIG</a></li>
-                            <li><a href="#">Saude</a></li>
-                            <li><a href="#">Protocolo</a></li>
+                            <li><a class="text-decoration-none" href="#">SAAE</a></li>
+                            <li><a class="text-decoration-none" href="#">CEMIG</a></li>
+                            <li><a class="text-decoration-none" href="#">Saude</a></li>
+                            <li><a class="text-decoration-none" href="#">Protocolo</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3">
                         <p class="h5 text-uppercase">Cidadão</p>
                         <ul>
-                            <li><a href="#">Cursos</a></li>
-                            <li><a href="#">Sala do Empreendedor</a></li>
-                            <li><a href="#">Procon</a></li>
+                            <li><a class="text-decoration-none" href="#">Cursos</a></li>
+                            <li><a class="text-decoration-none" href="#">Sala do Empreendedor</a></li>
+                            <li><a class="text-decoration-none" href="#">Procon</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div>
-                <img class="mx-auto d-block" src="assets/img/icones/brasao_branco.png">
                 <p class="text-center">© 2021 | São Lourenço | Todos os direitos reservados.</p>
             </div>
         </footer><!-- End: Footer Dark -->
