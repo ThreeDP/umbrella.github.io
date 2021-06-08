@@ -11467,5 +11467,33 @@ fieldset:disabled .btn {
 
 footer {
   background-color: #6c757d;
+  color: #f8f9fa;
+}
+
+footer a {
+  color: #212529;
+  text-decoration: none;
+}
+
+footer h6, footer .h6 {
+  text-align: center;
+}
+
+.row .col {
+  border-top: black;
+}
+
+.row .col div {
+  border-top-width: 8px;
+  border-top-color: black;
+}
+
+.row .col div div {
+  border-top-width: 3px;
+  border-top-color: black;
+}
+
+.row .col p {
+  background-color: #f8f9fa;
 }
 /*# sourceMappingURL=bootstrap.css.map */

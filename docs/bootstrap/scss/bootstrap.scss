@@ -50,6 +50,34 @@
 // Utilities
 @import "utilities/api";
 // scss-docs-end import-stack
+
+
 footer {
     background-color: $gray-600;
+    color: $gray-100;
+    a {
+        color: $gray-900;
+        text-decoration: none;
+    };
+    h6 {
+        text-align: center;
+    }
 };
+
+
+.row {
+    .col{
+        border-top:  black;
+        div {
+            border-top-width: 8px;
+            border-top-color: black;
+            div {
+                border-top-width: 3px;
+                border-top-color: black;
+            }
+        }
+        p {
+            background-color: $gray-100;
+        }
+    }
+}
