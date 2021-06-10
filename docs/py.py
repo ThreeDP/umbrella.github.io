@@ -11,8 +11,9 @@ def starred_expression():
 
 def teste():
     n = int(input())
-    arr = map(int, input().split())
-    print(arr)
+    arr=[]
+    arr = [int(x) for x in input().split()]
+    
     first = max(arr)
     while max(arr) == first:
         arr.remove(max(arr))
@@ -23,3 +24,5 @@ def new_lambda():
     lista = [6, 6, 6, 6, 6]
     produto = reduce(lambda x,y: x * y, lista) #retorna o produto de todos os elemento de lista
     print("lista = ", lista,"\n\nproduto = ", produto)
+
+teste()

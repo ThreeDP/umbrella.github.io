@@ -1,3 +1,26 @@
 package-lock.json
 
 package.json
+
+# Ignora qualquer arquivo que finalize com a, b ou c.
+*.*[abc]
+
+# Ignora todos os arquivos .cpp
+*.cpp
+
+# Nega ignorar os arquivos .cpp
+!programa.cpp
+
+# Ignora todos os arquivos com final de a á z.
+*.*[a-z]
+
+# Ignora todos os arquivos com final de 0 á 9.
+*.*[0-9]
+
+# Ignora todos os arquivos pdf dentro de doc/ e seus sub-diretorios.
+doc/**/*.pdf
+
+# Ignora todos os arquivos txt dentro de doc mais não em seus sub-diretorios.
+doc/*.txt
+
+
