@@ -21,6 +21,6 @@ package.json
 doc/**/*.pdf
 
 # Ignora todos os arquivos txt dentro de doc mais não em seus sub-diretorios.
-doc/*.txt
+doc/*.txt 
 
 
