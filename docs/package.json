@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "bootstrap": "^5.0.1"
-  },
-  "devDependencies": {
-    "connect-modrewrite": "^0.10.2"
-  }
-}

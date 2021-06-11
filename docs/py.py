@@ -25,4 +25,5 @@ def new_lambda():
     produto = reduce(lambda x,y: x * y, lista) #retorna o produto de todos os elemento de lista
     print("lista = ", lista,"\n\nproduto = ", produto)
 
+# Um comentario aleatorio
 teste()
